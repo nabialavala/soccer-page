@@ -1,17 +1,17 @@
 /*
 Color Palette:
-Strawberry - #FFD4EF
+Strawberry - #FFA6D4
 Vanilla - #FFF4C2
 Chocolate - #4F200A
-Dark Pink - #ED0082
+Dark Pink - #FF007D
 */
 
 /*Assigning the colors varible names*/
 :root {
-    --strawberry: #FFD4EF;
+    --strawberry: #FFA6D4;
     --vanilla: #FFF4C2;
     --chocolate: #4F200A;
-    --darkpink: #ED0082;
+    --darkpink: #FF007D;
 }
 
 body {
@@ -36,11 +36,22 @@ h2 {
 p {
     color: var(--chocolate);
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     background-color: var(--vanilla);
 }
 
 ul {
-    color: var(--chocolate);
+    color: var(--strawberry);
     font-family: 'Courier New', Courier, monospace;
-    background-color: var(--darkpink);
+    background-color: var(--chocolate);
+}
+
+img {
+    width: 600px;
+    /* keeps proportions right */
+    height: auto;
+    /* Makes image act like a block element */
+    display: block;
+    /* Centers image by splitting leftover horizontal space on the sides */
+    margin: auto; 
 }
