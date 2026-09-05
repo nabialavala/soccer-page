@@ -1,0 +1,46 @@
+/*
+Color Palette:
+Strawberry - #FFD4EF
+Vanilla - #FFF4C2
+Chocolate - #4F200A
+Dark Pink - #ED0082
+*/
+
+/*Assigning the colors varible names*/
+:root {
+    --strawberry: #FFD4EF;
+    --vanilla: #FFF4C2;
+    --chocolate: #4F200A;
+    --darkpink: #ED0082;
+}
+
+body {
+    background-color: var(--strawberry);
+}
+
+h1 {
+    color: var(--vanilla);
+    text-align: center;
+    font-family: Garamond, serif;
+    font-weight: bolder;
+    background-color: var(--chocolate);
+}
+
+h2 {
+    color: var(--vanilla);
+    font-family: Garamond, serif;
+    font-weight: bold;
+    background-color: var(--darkpink);
+}
+
+p {
+    color: var(--chocolate);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--vanilla);
+}
+
+ul {
+    color: var(--chocolate);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--darkpink);
+}
